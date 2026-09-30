@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gentle Lodge | A Fictional Parody</title>
+<style>
+:root{
+  --navy:#23384d; --blue:#6e91a8; --cream:#f7f2e8; --white:#fff;
+  --gold:#d7ad55; --red:#a95757; --text:#29323a; --muted:#68737c;
+}
+*{box-sizing:border-box} body{margin:0;font-family:Georgia,serif;color:var(--text);background:var(--cream)}
+header{background:var(--navy);color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:5}
+.logo{font-size:25px;font-weight:bold}.logo small{display:block;font:11px Arial,sans-serif;letter-spacing:2px;color:#cdd9e1}
+nav a{color:white;text-decoration:none;margin-left:24px;font:14px Arial,sans-serif}
+.hero{padding:90px 7%;background:linear-gradient(110deg,#dce5e8,#f7f2e8);text-align:center}
+.hero h1{font-size:62px;margin:0 0 12px;color:var(--navy)} .hero p{font:18px Arial,sans-serif;max-width:650px;margin:0 auto 28px;color:#53616b}
+.btn{display:inline-block;padding:13px 22px;background:var(--navy);color:white;border-radius:5px;text-decoration:none;font:14px Arial,sans-serif;margin:5px}
+.btn.gold{background:var(--gold);color:#26323c}
+.notice{background:#fff3d7;border-bottom:1px solid #e2c98f;padding:10px;text-align:center;font:12px Arial,sans-serif}
+section{padding:65px 7%;max-width:1150px;margin:auto} h2{font-size:36px;color:var(--navy);text-align:center;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;padding:26px;border-radius:9px;box-shadow:0 5px 18px #24384d12}.card h3{margin-top:0;color:var(--navy)}
+.stats{display:flex;justify-content:center;gap:60px;text-align:center;background:var(--navy);color:white;padding:30px}.stats strong{font-size:30px;display:block;color:#f0ca70}
+.review{border-left:5px solid var(--gold);margin:16px 0;padding:18px;background:white;border-radius:5px}.stars{color:#c49329;letter-spacing:2px}.review strong{display:block;margin-top:8px}.review p{margin-bottom:0;line-height:1.5}
+form{background:white;padding:28px;border-radius:10px;max-width:700px;margin:auto;box-shadow:0 5px 18px #24384d12}
+input,textarea,select{width:100%;padding:12px;margin:7px 0 15px;border:1px solid #ccd2d6;border-radius:5px;font:14px Arial,sans-serif}
+textarea{min-height:100px;resize:vertical} label{font:13px Arial,sans-serif;font-weight:bold}
+footer{background:#1b2b3a;color:#cbd5dc;text-align:center;padding:35px 7%;font:12px Arial,sans-serif}
+.badge{display:inline-block;padding:5px 9px;background:#eef2f4;border-radius:99px;font:11px Arial,sans-serif;color:#52606b}
+@media(max-width:750px){header{display:block;text-align:center}nav{margin-top:12px}nav a{margin:0 8px}.hero h1{font-size:44px}.grid{grid-template-columns:1fr}.stats{gap:25px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div class="notice">⚠️ THE GENTLE LODGE IS A FICTIONAL PARODY. ALL PEOPLE, REVIEWS, EVENTS, AND CLAIMS ARE MADE UP.</div>
+
+<header>
+  <div class="logo">The Gentle Lodge <small>RETIREMENT & RESIDENTIAL LIVING</small></div>
+  <nav><a href="#about">About</a><a href="#amenities">Amenities</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section class="hero">
+  <span class="badge">EST. 1987 • PROBABLY</span>
+  <h1>Comfort. Dignity. Bingo.</h1>
+  <p>A peaceful place to relax, make friends, complain about the thermostat, and wonder where your glasses went.</p>
+  <a class="btn" href="#reviews">Read Reviews</a>
+  <a class="btn gold" href="#contact">Schedule a Tour</a>
+</section>
+
+<div class="stats">
+  <div><strong>42</strong>Resident Rooms</div>
+  <div><strong>17</strong>Years Without a Successful Bingo Cheater</div>
+  <div><strong>4.7/5</strong>Fictional Rating</div>
+</div>
+
+<section id="about">
+<h2>Welcome to The Gentle Lodge</h2>
+<div class="grid">
+  <div class="card"><h3>🏡 Home Away From Home</h3><p>Our lodge offers cozy rooms, welcoming common areas, and hallways long enough to make every trip to the dining room an adventure.</p></div>
+  <div class="card"><h3>❤️ Caring Staff</h3><p>Our fictional staff are committed to providing kindness, conversation, and absolutely no opinions about your choice of television channel.</p></div>
+  <div class="card"><h3>🎲 Active Living</h3><p>Enjoy bingo, cards, movie nights, chair yoga, and our legendary Tuesday afternoon argument about what counts as a sandwich.</p></div>
+</div>
+</section>
+
+<section id="amenities">
+<h2>Amenities</h2>
+<div class="grid">
+  <div class="card"><h3>🍽️ Fine Dining</h3><p>Three meals daily, plus coffee available at suspiciously convenient intervals.</p></div>
+  <div class="card"><h3>📺 Entertainment Lounge</h3><p>Featuring 900 channels and somehow only one remote control.</p></div>
+  <div class="card"><h3>🌳 Garden Courtyard</h3><p>A peaceful outdoor area perfect for fresh air, bird watching, and loudly discussing the weather.</p></div>
+  <div class="card"><h3>🎵 Music Room</h3><p>Live performances, sing-alongs, and one resident who insists he can still play the trumpet.</p></div>
+  <div class="card"><h3>☕ Coffee Bar</h3><p>Open daily. The coffee is complimentary. The opinions about the coffee are not.</p></div>
+  <div class="card"><h3>🏆 Bingo Hall</h3><p>Five nights a week. Accusations of cheating are handled by a completely impartial committee.</p></div>
+</div>
+</section>
+
+<section id="reviews">
+<h2>Resident & Family Reviews</h2>
+<div id="reviewList">
+  <div class="review"><div class="stars">★☆☆☆☆</div><strong>— Margaret P.</strong><p>"I asked for a quiet room. They put me next to a man who believes 6:00 AM is an appropriate time to practice harmonica."</p></div>
+  <div class="review"><div class="stars">★☆☆☆☆</div><strong>— Gary T.</strong><p>"The pudding was square on Tuesday. I will not be elaborating."</p></div>
+  <div class="review"><div class="stars">★★☆☆☆</div><strong>— Linda R.</strong><p>"Nice place. Lost three games of bingo in one afternoon. I suspect organized crime."</p></div>
+  <div class="review"><div class="stars">★★★★★</div><strong>— Anonymous</strong><p>"Excellent place. My grandson visits every Sunday and hasn't once asked me to fix his printer."</p></div>
+</div>
+<br>
+<form id="reviewForm">
+  <h3>Leave a Fictional Review</h3>
+  <label>Name</label><input id="name" required placeholder="e.g. Harold B.">
+  <label>Rating</label>
+  <select id="rating"><option value="1">★☆☆☆☆</option><option value="2">★★☆☆☆</option><option value="3">★★★☆☆</option><option value="4">★★★★☆</option><option value="5">★★★★★</option></select>
+  <label>Review</label><textarea id="review" required placeholder="Tell us about your completely fictional experience..."></textarea>
+  <button class="btn" type="submit">Post Review</button>
+</form>
+</section>
+
+<section id="contact">
+<h2>Contact The Gentle Lodge</h2>
+<div class="grid">
+  <div class="card"><h3>📍 Address</h3><p>404 Gentle Lane<br>Somewhere, Texas 00000</p></div>
+  <div class="card"><h3>☎️ Phone</h3><p>(555) 867-5309<br>Ask for the front desk.</p></div>
+  <div class="card"><h3>✉️ Email</h3><p>hello@thegentlelodge.example<br>We reply eventually.</p></div>
+</div>
+</section>
+
+<footer>
+  <p><strong>The Gentle Lodge</strong> — Fictional parody website</p>
+  <p>Nothing on this website describes a real nursing home, resident, employee, review, or event. Please don't mistake the jokes for real-world claims.</p>
+</footer>
+
+<script>
+document.getElementById("reviewForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  const name=document.getElementById("name").value.trim();
+  const rating=document.getElementById("rating").value;
+  const review=document.getElementById("review").value.trim();
+  const stars="★★★★★".slice(0,rating)+"☆☆☆☆☆".slice(0,5-rating);
+  const div=document.createElement("div");
+  div.className="review";
+  div.innerHTML=`<div class="stars">${stars}</div><strong>— ${escapeHtml(name)}</strong><p>${escapeHtml(review)}</p>`;
+  document.getElementById("reviewList").prepend(div);
+  this.reset();
+  location.hash="reviews";
+});
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));}
+</script>
+</body>
+</html>
